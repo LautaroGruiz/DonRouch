@@ -1,0 +1,280 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+#carouselExampleRide {
+  text-align: center;
+}
+.ysy-a {
+  height: 25rem;
+  width: 30%;
+}
+.henessy {
+  height: 25rem;
+  width: 30%;
+}
+.ysy-0800 {
+  height: 25rem;
+  width: 30%;
+}
+.khea-sprite {
+  height: 25rem;
+  width: 30%;
+}
+.cuello-khea {
+  height: 25rem;
+  width: 30%;
+}
+.show-khea {
+  height: 25rem;
+  width: 30%;
+}
+.duki-pildoron {
+  height: 25rem;
+  width: 30%;
+}
+.dfm {
+  height: 25rem;
+  width: 30%;
+}
+.lucifer {
+  height: 25rem;
+  width: 30%;
+}
+.don-rouch-0800 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h4 {
+  padding-top: 1rem;
+  color: black;
+  text-align: center;
+  font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+  width: 100%;
+  /* border: 1px solid forestgreen */
+}
+
+.card-aside {
+  width: 100%;
+  height: 55rem;
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+}
+.card-aside::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.card-aside:hover::before {
+  width: 100%;
+  border: 3px solid rgb(235, 148, 17);
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  transition: height 0.5s linear, width 0.5s linear 0.5s;
+}
+.muestra-productos {
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid brown; */
+  display: flex;
+  flex-direction: column;
+}
+.promocion {
+  width: 20%;
+  height: 100%;
+  /* background-color: blue; */
+  /* border: 1px solid brown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-left: 1px solid orangered;
+}
+.promocion h2 {
+  /* border: 1px solid seagreen; */
+  margin-top: 1rem;
+}
+.no-pierdas{
+  color: orangered;
+  font-size: 2rem;
+  font-family:Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+.descuento-porcentaje{
+  color: green;
+}
+.promocion img {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.todo-el-pais{
+  color: green;
+  font-size: 2rem;
+}
+.categoria-baby {
+  padding: 0%;
+  margin: 0%;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.precio-baby {
+  padding: 1rem;
+  margin: 0%;
+  font-size: 0.9rem;
+}
+p {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+}
+.anillos {
+  width: 99%;
+  height: 22rem;
+  /* border: 1px solid darkmagenta; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 1px 15px -1px;
+}
+.card img {
+  height: 150px;
+  width: 200px;
+}
+.card-body {
+  /* border: 1px rgb(119, 19, 139) solid; */
+  display: flex;
+  flex-direction: column;
+} 
+.card-title {
+  font-size: 1rem;
+  padding: 0%;
+  margin: 0%;
+  /* border: 1px rgb(19, 131, 139) solid ; */
+}
+.categoria {
+  padding: 0%;
+  margin: 0%;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.card-text {
+  padding: 0%;
+  margin: 0%;
+  /* border: 1px saddlebrown solid; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.3rem;
+}
+
+.precio {
+  padding: 0%;
+  margin: 0%;
+  font-size: 0.9rem;
+}
+strong {
+  color: green;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.medio-de-pago {
+  width: 25rem;
+  height: 10rem;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.medio-de-pago img {
+  width: 15rem;
+}
+.medio-de-pago .roque-blanco {
+  width: 5rem;
+  height: 4rem;
+}
+.titulo-pago {
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  font-size: 1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.redes-sociales{
+  width: 25rem;
+  height: 10rem;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo-redes {
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif
+}
+.iconos-redes {
+  /* border: 1px springgreen solid; */
+  width: 16rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.iconos-redes img {
+  width: 3rem;
+  height: 100%;
+}
+.politicas {
+  width: 25rem;
+  height: 6rem;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.politicas h5 {
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2rem;
+
+}
